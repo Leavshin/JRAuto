@@ -1,0 +1,54 @@
+/* //////////////////////////////////////////////
+Plus d'informations liées à la solution  : 
+//////////////////////////////////////////////
+
+https://www.zonecss.fr/faq/description-d-un-element.html#specifier-la-taille-d-un-element-grace-aux-feuilles-de-style-css
+
+https://www.zonecss.fr/proprietes-css/box-sizing-css.html#WJwJqZ00000.codepen
+*/
+main {font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+color: white;
+}
+  
+  input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;}
+  
+  input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  input[type=submit]:hover {
+    background-color: red;
+  }
+  
+  #centrer {
+   text-align: center;
+  }
+  
+  h1  {
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+  }

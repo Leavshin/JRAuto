@@ -1,0 +1,53 @@
+main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 15px auto;
+  }
+  
+  form{
+    width: min(24em, 100%);
+    line-height: 1.7em;
+    margin: auto;
+  }
+  
+  h1{
+    text-align: center;
+  }
+  
+  label{
+    display: inline-block;
+    width: min(10em,auto);
+    text-align: left;
+  }
+  
+  input,select{
+    display: inline-block;
+    width: 10em;
+    box-sizing: border-box;
+    float: right;
+  }
+  
+  textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 3px;
+  }
+  
+  fieldset{
+    padding: 0.8em 1.5em;
+  }
+  
+  input[type="submit"]{
+    float: none;
+    display: block;
+    margin: 1.5em auto 1em;
+  }
+  
+  input[type="checkbox"]{
+    float: none;
+    display: inline;
+    width: unset;
+  }
+  
+  label[for='confirmation']{
+    display: inline;
+  }

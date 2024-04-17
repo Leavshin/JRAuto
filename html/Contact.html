@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JR Auto</title>
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../css/Style2.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="../js/Script.js" defer></script>
+</head>
+<body>
+    <video id="background-video" autoplay loop muted
+    src="../images/auto-2708.mp4"></video>
+    <header>  
+       <nav class="navbar bg-dark bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <img src="../images/LOGO_PNG.png" alt="Logo" width="100rem">
+                <button type="button" class="btn btn-danger">
+                    <a class="nav-link active" aria-current="page" href="../index.html.html">Accueil</a>
+                </button>
+                <button type="button" class="btn btn-danger">
+                    <a class="nav-link" aria-current="page" href="./Prestations.html">Prestations</a>
+                </button>
+                <button type="button" class="btn btn-danger">
+                    <a class="nav-link" aria-current="page" href="./Situer.html">Nous situer</a>
+                </button>
+                <button type="button" class="btn btn-light">
+                    <a class="nav-link" aria-current="page" href="./Contact.html">Contactez-nous</a>
+                </button>
+                <button type="button" class="btn btn-danger">
+                    <a class="nav-link" aria-current="page" href="./RDV.html">Prendre un RDV</a>
+                </button>
+                <!-- <button type="button" >
+                    <a class="nav-link" aria-current="page" href="./Connexion.html">Connexion</a>
+                </button> -->
+                <img src="../images/LOGO_PNG.png" alt="Logo" width="100rem">
+            </div>
+          </nav>
+    </header>
+    <main><!--
+        Question : 
+        https://openclassrooms.com/forum/sujet/formulaire-de-contact-responsive
+        -->
+        <div class="container">
+          <h1>Formulaire de contact</h1>
+          <form action="/action_page.php">
+            <label for="fname">Nom & prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+        
+            <label for="sujet">Sujet</label>
+            <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+        
+            <label for="emailAddress">Email</label>
+            <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+        
+        
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Votre message" style="height: 100px; "></textarea>
+            <div id="centrer">
+                <input type="submit" value="Envoyer" id="centrer">
+            </div>
+            
+          </form>
+        </div>
+        <br>
+    </main>
+    <footer class="flex2">      
+        <button id="btnVideo" onclick="playAndPause()">Pause II</button>
+    </footer>
+    <footer class="site-footer" id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-22 col-md-6">    
+              <h6>A propos</h6>
+              <p class="text-justify">Vous cherchez un garagiste compétent qui assure la réparation, le nettoyage et la reprogrammation de véhicules toutes marques ? 
+                JR Auto, votre garage automobile situé à Vendin-le-vieil(62). Nous sommes spécialisées dans la réparation de véhicules toutes marques, et effectue également le nettoyage de votre véhicule, vos reprogrammations, votre diagnostic électronique. Forts de notre expérience, nous vous assurons un travail professionnel et de qualité.
+                 Le garage JR Auto est à votre disposition pour de plus d’informations.
+              </p>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <h6>Contacts</h6>
+              <ul class="footer-links">
+                <li><strong>Num tel :</strong></li>
+                <li><a href="tel:0659721348">06 59 72 13 48</a></li>
+                <li><strong>Adresse mail :</strong></li>
+                <li><a href="mailto:jrauto5962@gmail.com">jrauto5962@gmail.com</a></li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-md-3">
+              <h6>Liens rapides</h6>
+              <ul class="footer-links">
+                <li><a href="../index.html.html">Accueil</a></li>
+                <li><a href="./Prestations.html">Prestations</a></li>
+                <li><a href="./Situer.html">Nous situer</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by 
+           <a href="#">LG</a>.
+              </p>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://www.facebook.com/profile.php?id=100089838115283" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a class="instagram" href="https://www.instagram.com/jrauto5962/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a class="snapchat" href="https://www.snapchat.com/add/jrauto.5962?share_id=Cp9OH98N4bs&locale=fr-FR" target="_blank"><i class="fa-brands fa-snapchat"></i></a></li>  
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2ab0673488.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2ab0673488.js" crossorigin="anonymous"></script>
+</body>
+</html>
